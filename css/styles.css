@@ -88,7 +88,7 @@ address {
 
 .slogan-title {
     color: #FFF;
-    text-align: center;
+    /* text-align: center; */
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -114,7 +114,7 @@ address {
 /* h2 */
 .section-title {
     color: #2E2F42;
-    text-align: center;
+    /* text-align: center; */
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -167,7 +167,7 @@ address {
 /*  Our Team */
 .team {
     background-color: #F4F4FD;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* .team-title {
