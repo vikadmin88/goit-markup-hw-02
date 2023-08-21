@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  /* background-color: #FFF; */
+  background-color: #FFF;
 }
 
 ul,
@@ -11,13 +11,14 @@ ol {
 
 a {
     text-decoration: none;
+}
+
+address {
     font-style: normal;
 }
 
 .wrapper {
     /* border: 1px dotted blue; */
-    margin: 0 auto;
-    width: 1440px;
 }
 
 
@@ -30,12 +31,19 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    color: #4d5ae5;
+    
 }
 
-
+.logo-right-top {
+    color: #2e2f42;
+}
+.logo-right-bottom {
+    color: #f4f4fd;
+}
 /*  Navbar menu */
 /* .navbar-menu-list {}
 .navbar-menu-list-item {} */
@@ -74,9 +82,8 @@ a {
 
 /* Main */
 /* .main-container {} */
-
-.slogan-container {
-    background: #2E2F42;
+.slogan {
+    background-color: #2E2F42;
 }
 
 .slogan-title {
@@ -88,126 +95,143 @@ a {
     letter-spacing: 1.12px;
 }
 
-.slogan-button-order {
-    border-radius: 4px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-}
-.slogan-button-order:hover,
-.slogan-button-order:focus {
-    background: #404BBF;
-}
-
-.slogan-button-order-text {
+.slogan-button {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.slogan-button:hover,
+.slogan-button:focus {
+    background-color: #404BBF;
+}
+
+
+/* Sections title style */
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;    
+}
+
+.list-item-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.list-item-descr {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 
 /* Our Qualities */
 .qualities {
-    background: #FFF; 
+    background-color: #FFF; 
 }
 
-.qualities-title {
-    color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;    
-}
+/* .qualities-title {} */
 
 /* .qualities-list {}
 .qualities-list-item {} */
 
-.qualities-list-item-title {
+/* .qualities-list-item-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-}
-.qualities-list-item-descr {
+} */
+/* .qualities-list-item-descr {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-}
-
+} */
 
 /*  Our Team */
 .team {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
+    text-align: center;
 }
 
-.team-title {
+/* .team-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-}
+} */
 
 /* .team-list {}
 .team-list-item {}
 .team-list-item-image {} */
 
-.team-list-item-title {
+/* .team-list-item-title {
     color: #2E2F42;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-}
-.team-list-item-descr {
+} */
+
+/* .team-list-item-descr {
     color: #434455;
     text-align: center;
     font-size: 16px;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
-}
+} */
 
 
 /* Our Portfolio */
 .portfolio {
-    background: #FFF;
+    background-color: #FFF;
 }
-.portfolio-title {
+/* .portfolio-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-}
+} */
 
 /* .section-portfolio-list {}
 .section-portfolio-list-item {}
 .section-portfolio-list-item-image {} */
 
-.portfolio-list-item-title {
+/* .portfolio-list-item-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-}
-.portfolio-list-item-descr {
+} */
+/* .portfolio-list-item-descr {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-}
+} */
+
 
 /* Footer */
 .footer-container {
