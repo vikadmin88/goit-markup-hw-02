@@ -101,9 +101,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 .slogan-button:hover,
@@ -113,6 +111,7 @@ address {
 
 
 /* Sections title style */
+/* h2 */
 .section-title {
     color: #2E2F42;
     text-align: center;
@@ -123,6 +122,7 @@ address {
     text-transform: capitalize;    
 }
 
+/* h3 */
 .list-item-title {
     color: #2E2F42;
     font-size: 20px;
@@ -130,6 +130,8 @@ address {
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
+
+/* paragraph */
 .list-item-descr {
     color: #434455;
     font-size: 16px;
@@ -178,9 +180,11 @@ address {
     text-transform: capitalize;
 } */
 
-/* .team-list {}
-.team-list-item {}
-.team-list-item-image {} */
+/* .team-list {} */
+.team-list-item {
+    background-color: #FFF;
+}
+/*.team-list-item-image {} */
 
 /* .team-list-item-title {
     color: #2E2F42;
