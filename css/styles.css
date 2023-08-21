@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  /* background-color: #FFF; */
   color: #434455;
+  /* background-color: #FFF; */
 }
 
 ul,
@@ -11,6 +11,7 @@ ol {
 
 a {
     text-decoration: none;
+    font-style: normal;
 }
 
 .wrapper {
@@ -22,7 +23,7 @@ a {
 
 /* Header container */
 /* .header-container {}
-.header-navbar {} */
+.navbar {} */
 
 /* Logo */
 .logo {
@@ -34,19 +35,13 @@ a {
     text-transform: uppercase;
 }
 
-.header-logo-left {
-    color: #4D5AE5;
-}
-.header-logo-right {
-    color: #2E2F42;
-}
 
 /*  Navbar menu */
-/* .header-navbar-menu-list {}
-.header-navbar-menu-list-item {} */
+/* .navbar-menu-list {}
+.navbar-menu-list-item {} */
 
 
-.header-navbar-menu-list-item-link {
+.navbar-menu-list-item-link {
     /* display: block; */
     color: #2E2F42;
     font-size: 16px;
@@ -55,37 +50,36 @@ a {
     letter-spacing: 0.32px;
 }
 
-.header-navbar-menu-list-item-link:hover,
-.header-navbar-menu-list-item-link:focus {
+.navbar-menu-list-item-link:hover,
+.navbar-menu-list-item-link:focus {
     color: #404BBF;
 }
 
 /*  Address container */
 /* .header-address {}
-.header-address-list {}
-.header-address-list-item {} */
+.address-list {}
+.address-list-item {} */
 
-.header-address-list-item-link {
+.address-list-item-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.header-address-list-item-link:hover, 
-.header-address-list-item-link:focus {
+.address-list-item-link:hover, 
+.address-list-item-link:focus {
     color: #404BBF;
 }
 
 /* Main */
-.main-container {
-}
+/* .main-container {} */
 
-.section-main {
+.slogan-container {
     background: #2E2F42;
 }
 
-.section-main-title {
+.slogan-title {
     color: #FFF;
     text-align: center;
     font-size: 56px;
@@ -94,17 +88,18 @@ a {
     letter-spacing: 1.12px;
 }
 
-.section-main-button-order {
+.slogan-button-order {
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
-.section-main-button-order:hover,
-.section-main-button-order:focus {
+.slogan-button-order:hover,
+.slogan-button-order:focus {
     background: #404BBF;
 }
 
-.section-main-button-order-text {
+.slogan-button-order-text {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
@@ -114,11 +109,11 @@ a {
 
 
 /* Our Qualities */
-.section-qualities {
+.qualities {
     background: #FFF; 
 }
 
-.section-qualities-title {
+.qualities-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -128,17 +123,17 @@ a {
     text-transform: capitalize;    
 }
 
-/* .section-qualities-list {}
-.section-qualities-list-item {} */
+/* .qualities-list {}
+.qualities-list-item {} */
 
-.section-qualities-list-item-title {
+.qualities-list-item-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.section-qualities-list-item-descr {
+.qualities-list-item-descr {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -147,11 +142,11 @@ a {
 
 
 /*  Our Team */
-.section-team {
+.team {
     background: #F4F4FD;
 }
 
-.section-team-title {
+.team-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -161,11 +156,11 @@ a {
     text-transform: capitalize;
 }
 
-/* .section-team-list {}
-.section-team-list-item {}
-.section-team-list-item-image {} */
+/* .team-list {}
+.team-list-item {}
+.team-list-item-image {} */
 
-.section-team-list-item-title {
+.team-list-item-title {
     color: #2E2F42;
     text-align: center;
     font-size: 20px;
@@ -173,7 +168,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.section-team-list-item-descr {
+.team-list-item-descr {
     color: #434455;
     text-align: center;
     font-size: 16px;
@@ -183,10 +178,10 @@ a {
 
 
 /* Our Portfolio */
-.section-portfolio {
+.portfolio {
     background: #FFF;
 }
-.section-portfolio-title {
+.portfolio-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -200,14 +195,14 @@ a {
 .section-portfolio-list-item {}
 .section-portfolio-list-item-image {} */
 
-.section-portfolio-list-item-title {
+.portfolio-list-item-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.section-portfolio-list-item-descr {
+.portfolio-list-item-descr {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -218,12 +213,7 @@ a {
 .footer-container {
     background: #2E2F42;
 }
-.footer-logo-left {
-    color: #4D5AE5;
-}
-.footer-logo-right {
-    color: #F4F4FD;
-}
+
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
